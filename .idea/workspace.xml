@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Added jUnit5 Examples">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeForm_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TextBox_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/resources/_DSC1044.JPG" afterDir="false" />
+    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Added PracticeForm_Test">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeForm_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/tests/PracticeForm_Test.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -219,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655212608783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added PracticeForm_Test">
+      <created>1655234616451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655234616451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +241,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Added jUnit5 Examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jUnit5 Examples" />
+    <MESSAGE value="Added PracticeForm_Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added PracticeForm_Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

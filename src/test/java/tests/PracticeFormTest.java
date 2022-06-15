@@ -3,6 +3,7 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
@@ -11,7 +12,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.*;
 
-public class PracticeForm_Test {
+public class PracticeFormTest {
     @BeforeAll
     static void beforeAll() {
         Configuration.baseUrl = "https://demoqa.com";
@@ -42,7 +43,6 @@ public class PracticeForm_Test {
         $("[id=subjectsInput]").setValue("Ecology");
         $(byText("Reading")).click();
         $("[id=uploadPicture]").uploadFile(new File("src/tests/resources/_DSC1044.JPG"));
-        ;
         $("[id=currentAress]").setValue("current Address 12");
         $("[id=react-select-3-input]").click();
 

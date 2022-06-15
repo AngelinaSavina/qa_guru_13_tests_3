@@ -6,8 +6,8 @@ import org.junit.jupiter.api.BeforeAll;
 public class TestBase {
 
     @BeforeAll
-    static void configuration(){
-        Configuration.baseUrl ="https://demoqa.com";
+    static void configuration() {
+        Configuration.baseUrl = "https://demoqa.com";
 
     }
 }
