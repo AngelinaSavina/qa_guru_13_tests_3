@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Added PracticeForm_Test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeForm_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" afterDir="false" />
+    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Refactoring in PracticeForm_Test and gitIgnore">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TextBox_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TextBoxTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655234616451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactoring in PracticeForm_Test and gitIgnore">
+      <created>1655279957486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655279957486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,13 +247,14 @@
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Added jUnit5 Examples" />
     <MESSAGE value="Added PracticeForm_Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added PracticeForm_Test" />
+    <MESSAGE value="Refactoring in PracticeForm_Test and gitIgnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring in PracticeForm_Test and gitIgnore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/TextBox_Tests.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/tests/TextBoxTests.java</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
