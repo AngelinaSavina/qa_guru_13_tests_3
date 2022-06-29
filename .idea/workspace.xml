@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Refactoring in PracticeForm_Test and gitIgnore">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TextBox_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TextBoxTests.java" afterDir="false" />
+    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Rename class TextBoxTests.java">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PracticeFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalenderComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/ResultTableComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTestwithoutPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +35,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa_guru_13_tests_3" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -38,15 +50,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/pages/PracticeFormPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/tests/TestBase.java" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -86,6 +104,10 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
       <recent name="tests" />
     </key>
   </component>
@@ -228,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655279957486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rename class TextBoxTests.java">
+      <created>1655325513536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655325513536</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +277,8 @@
     <MESSAGE value="Added jUnit5 Examples" />
     <MESSAGE value="Added PracticeForm_Test" />
     <MESSAGE value="Refactoring in PracticeForm_Test and gitIgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring in PracticeForm_Test and gitIgnore" />
+    <MESSAGE value="Rename class TextBoxTests.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename class TextBoxTests.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
