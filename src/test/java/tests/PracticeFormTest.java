@@ -15,13 +15,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class PracticeFormTest extends TestBase {
 
-
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.baseUrl = "https://demoqa.com";
-    }
-
-
     @Test
     void successfulTest() {
 
@@ -30,17 +23,17 @@ public class PracticeFormTest extends TestBase {
         String firstName = "Angelina";
         String lastName = "Sokolova";
         String userEmail = "lina@sokol.ru";
-        String phoneNumber = "+7999777443";
+        String phoneNumber = "7999777443";
         String gender = "Female";
         String month = "June";
         String year = "1996";
         String day = "08";
-        String fromSubject = "Ecology";
+        String fromSubject = "Economics";
         String hobby = "Reading";
         String currentAddress = "current address 12";
         String state = "Haryana";
         String city = "Karnal";
-        String url = "src/tests/resources/_DSC1044.JPG";
+        String url = "_DSC1044.JPG";
 
         practiceFormPage.openPage()
                 .setFirstName(firstName)
