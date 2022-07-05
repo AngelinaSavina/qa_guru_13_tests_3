@@ -46,7 +46,7 @@ public class PracticeFormTest extends TestBase {
                 .setFirstName(firstName)
                 .setLastName(lastName)
                 .setUserEmail(userEmail)
-                .setGenderRadio2(gender)
+                .setGender(gender)
                 .setNumber(phoneNumber)
                 .setDateOfBirth(day, month, year)
                 .chooseSubject(fromSubject)
@@ -64,7 +64,7 @@ public class PracticeFormTest extends TestBase {
                 .checkResult("Date of Birth", day + " " + month + "," + year)
                 .checkResult("Subjects", fromSubject)
                 .checkResult("Hobbies", hobby)
-                .checkResult("Picture", "picture.jpeg")
+                .checkResult("Picture", "_DSC1044.JPG")
                 .checkResult("Address", currentAddress)
                 .checkResult("State and City", state + " " + city);
     }
