@@ -20,15 +20,23 @@ public class PracticeFormPage {
     SelenideElement firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName"),
             emailInput = $("#userEmail"),
-            genderRadioButton = $("#genterWrapper"),
+            genderRadioButton1 = $("#gender-radio-1"),
+            genderRadioButton2 = $("#gender-radio-2"),
+            genderRadioButton3 = $("#gender-radio-3"),
             numberInput = $("#userNumber"),
             birthDayInput = $("#dateOfBirthInput"),
             subjectInput = $("#subjectsInput"),
             hobbyCheckbox = $("#hobbiesWrapper"),
             uploadPicture = $("#uploadPicture"),
             addressInput = $("#currentAddress"),
+            stateInput = $("#state"),
             stateSelect = $("#stateCity-wrapper"),
-            citySelect = $("#stateCity-wrapper");
+            cityInput = $("#city"),
+            citySelect = $("#stateCity-wrapper"),
+            resulModalWindow = $("#modal-content"),
+            submitButton = $("#submit");
+
+
 
     public PracticeFormPage openPage(){
         open("/automation-practice-form");
@@ -39,35 +47,38 @@ public class PracticeFormPage {
     }
 
     public PracticeFormPage setFirstName(String value){
-        $("#firstName").setValue(value);
-
+        firstNameInput.setValue(value);
         return this;
     }
 
     public PracticeFormPage setLastName(String value){
-        $("#lastName").setValue(value);
-
+        lastNameInput.setValue(value);
         return this;
     }
 
     public PracticeFormPage setUserEmail(String value){
-        $("#userEmail").setValue(value);
-
+        emailInput.setValue(value);
         return this;
     }
 
-    public PracticeFormPage setGenderRadio2(String value){
-        $("#gender-radio-2").click();
+    public PracticeFormPage setGender(String value){
+        if (value.equals("Male")) {
+            genderRadioButton1.click();
+        } else if (value.equals("Female")) {
+            genderRadioButton2.click();
+        } else if (value.equals("Other")) {
+            genderRadioButton3.click();
+        }
         return this;
     }
 
     public PracticeFormPage setNumber(String value){
-        $("[id=userNumber]").setValue(value);
+        numberInput.setValue(value);
         return this;
     }
 
     public PracticeFormPage setDateOfBirth(String day, String month, String year){
-        $("[id=dateOfBirthInput").click();
+        birthDayInput.click();
         calenderComponent.setDate(day, month, year);
         return this;
     }
@@ -95,24 +106,24 @@ public class PracticeFormPage {
     }
 
     public PracticeFormPage chooseState(String value) {
-        $("#state").click();
+        stateInput.click();
         stateSelect.$(byText(value)).click();
         return this;
     }
 
     public PracticeFormPage chooseCity(String value) {
-        $("#city").click();
+        cityInput.click();
         citySelect.$(byText(value)).click();
         return this;
     }
 
     public PracticeFormPage pressSubmit() {
-        $("#submit").click();
+        submitButton.click();
         return this;
     }
 
     public PracticeFormPage checkOpenedResultForm() {
-        $(".modal-content").shouldHave(text("Thanks for submitting the form"));
+        resulModalWindow.shouldHave(text("Thanks for submitting the form"));
         return this;
     }
 
