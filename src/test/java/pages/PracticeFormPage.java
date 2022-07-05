@@ -20,9 +20,7 @@ public class PracticeFormPage {
     SelenideElement firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName"),
             emailInput = $("#userEmail"),
-            genderRadioButton1 = $("#gender-radio-1"),
-            genderRadioButton2 = $("#gender-radio-2"),
-            genderRadioButton3 = $("#gender-radio-3"),
+            gender = $("#genterWrapper"),
             numberInput = $("#userNumber"),
             birthDayInput = $("#dateOfBirthInput"),
             subjectInput = $("#subjectsInput"),
@@ -33,7 +31,7 @@ public class PracticeFormPage {
             stateSelect = $("#stateCity-wrapper"),
             cityInput = $("#city"),
             citySelect = $("#stateCity-wrapper"),
-            resulModalWindow = $("#modal-content"),
+            resultModalWindow = $("#example-modal-sizes-title-lg"),
             submitButton = $("#submit");
 
 
@@ -62,13 +60,7 @@ public class PracticeFormPage {
     }
 
     public PracticeFormPage setGender(String value){
-        if (value.equals("Male")) {
-            genderRadioButton1.click();
-        } else if (value.equals("Female")) {
-            genderRadioButton2.click();
-        } else if (value.equals("Other")) {
-            genderRadioButton3.click();
-        }
+        gender.$(byText(value)).click();
         return this;
     }
 
@@ -123,7 +115,7 @@ public class PracticeFormPage {
     }
 
     public PracticeFormPage checkOpenedResultForm() {
-        resulModalWindow.shouldHave(text("Thanks for submitting the form"));
+        resultModalWindow.shouldHave(text("Thanks for submitting the form"));
         return this;
     }
 

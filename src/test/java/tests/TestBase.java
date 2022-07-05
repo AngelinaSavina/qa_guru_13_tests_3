@@ -5,7 +5,6 @@ import org.junit.jupiter.api.BeforeAll;
 import pages.PracticeFormPage;
 
 public class TestBase {
-
     PracticeFormPage practiceFormPage = new PracticeFormPage();
 
     @BeforeAll
