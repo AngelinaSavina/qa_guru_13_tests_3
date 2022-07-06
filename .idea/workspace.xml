@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Внесены правки согласно комментарию">
+    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Внесены дополнительные правки согласно комментарию">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GetTestJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTestWithFakers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PracticeFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="pageobjects" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,11 +97,11 @@
       <recent name="tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pages" />
       <recent name="tests" />
+      <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PracticeFormTest">
+  <component name="RunManager" selected="Gradle.PracticeFormTestWithFakers">
     <configuration name="JUnit5Examples" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,29 +125,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="JUnit5Examples.firstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.JUnit5Examples.firstTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="PracticeFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,6 +139,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.PracticeFormTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PracticeFormTestWithFakers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.PracticeFormTestWithFakers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -240,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PracticeFormTestWithFakers" />
         <item itemvalue="Gradle.PracticeFormTest" />
         <item itemvalue="Gradle.Tests in 'tests'" />
         <item itemvalue="Gradle.TextBox_Tests" />
         <item itemvalue="Gradle.JUnit5Examples" />
-        <item itemvalue="Gradle.JUnit5Examples.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657005914107</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Внесены дополнительные правки согласно комментарию">
+      <created>1657034261055</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657034261055</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +345,8 @@
     <MESSAGE value="Rename class TextBoxTests.java" />
     <MESSAGE value="PageObject" />
     <MESSAGE value="Внесены правки согласно комментарию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внесены правки согласно комментарию" />
+    <MESSAGE value="Внесены дополнительные правки согласно комментарию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внесены дополнительные правки согласно комментарию" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,6 +355,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/TextBoxTests.java</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/PracticeFormTestWithFakers.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
