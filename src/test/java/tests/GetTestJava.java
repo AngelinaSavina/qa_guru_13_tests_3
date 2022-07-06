@@ -19,6 +19,6 @@ public class GetTestJava {
         public static String getHobbyFromSite() {
             Selenide.open("https://demoqa.com/automation-practice-form");
             var hobbies = $("#hobbiesWrapper").$$("label");
-            return hobbies.get(fakerEnglish.number().numberBetween(0, hobbies.size() - 1)).getText();
+            return hobbies.get(fakerEnglish.number().numberBetween(1, hobbies.size() - 2)).getText();
         }
 }

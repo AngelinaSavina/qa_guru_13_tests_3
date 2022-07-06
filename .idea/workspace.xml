@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Внесены дополнительные правки согласно комментарию">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GetTestJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTestWithFakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestData.java" afterDir="false" />
+    <list default="true" id="852a6470-74ea-4659-a2d3-995ed2ed1b77" name="Changes" comment="Переменные вынесены в TestData.Доавлена генерация данных с Faker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetTestJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetTestJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTestWithFakers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormTestWithFakers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657034261055</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Внесены дополнительные правки согласно комментарию">
+      <created>1657093764734</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657093764734</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Переменные вынесены в TestData.Доавлена генерация данных с Faker">
+      <created>1657093941132</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657093941132</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +357,9 @@
     <MESSAGE value="PageObject" />
     <MESSAGE value="Внесены правки согласно комментарию" />
     <MESSAGE value="Внесены дополнительные правки согласно комментарию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внесены дополнительные правки согласно комментарию" />
+    <MESSAGE value="Переменные вынесены в TestData. Добавлена генерация данных с Faker" />
+    <MESSAGE value="Переменные вынесены в TestData.Доавлена генерация данных с Faker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переменные вынесены в TestData.Доавлена генерация данных с Faker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,8 +371,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/PracticeFormTestWithFakers.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
+          <line>21</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
