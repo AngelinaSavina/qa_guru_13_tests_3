@@ -33,7 +33,7 @@ public class PracticeFormTestWithFakers extends TestBase {
                 .checkResult("Date of Birth", testData.day + " " + testData.month + "," + testData.year)
                 .checkResult("Subjects", testData.fromSubject)
                 .checkResult("Hobbies", testData.hobby)
-                .checkResult("Picture", "_DSC1044.JPG")
+                .checkResult("Picture", testData.url)
                 .checkResult("Address", testData.currentAddress)
                 .checkResult("State and City", testData.state + " " + testData.city);
     }
